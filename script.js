@@ -71,7 +71,13 @@
 // }
 // alert("Voici la table de multiplication de votre nombre :  " + tablemulti.join("\n")  );
 
-// 
+// EXO 10
+const motUser = prompt("Veuillez donner un mot");
+
+for(let i=0; motUser.length; i += 1){
+    const motLong = (motUser[i] + "\n")}
+
+alert ("Voici votre mot en longueur " + motLong)
 
 
 // //EXO 11
@@ -84,13 +90,13 @@
 //     alert("Votre nombre saisi est supérieur à 5")
 // }
 
-//EXO 12
-const nombrecarre = parseInt(prompt("Saisir un nombre"));
+// //EXO 12
+// const nombrecarre = parseInt(prompt("Saisir un nombre"));
 
-function carré(nombrecarre){
-    let calculcarre = nombrecarre**2;
+// function carré(nombrecarre){
+//     let calculcarre = nombrecarre**2;
 
-    return calculcarre;
-}
+//     return calculcarre;
+// }
 
-    alert("La carré de votre nombre est " + carré(nombrecarre));
+//     alert("La carré de votre nombre est " + carré(nombrecarre));
